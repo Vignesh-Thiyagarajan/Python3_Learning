@@ -1,5 +1,5 @@
 #LIST
-car = ["creta","inova","nanao"] #list
+car = ["creta","inova","nanao"] #list1
 print(car)
 
 carlist = car[-3]  #saving list in variable
@@ -35,13 +35,13 @@ print(car)
 cars_s = car.clear() #it will clear every element in the list
 print(car)
 
-num = [2,1,4,6,5,8,7,9]
+num = [2,1,4,6,5,8,7,9] #list2
 print(num)
 
 Sort_num = num.sort() #This Sort method will sort your original list
 print(num)
 
-num_2 = [2,1,4,6,3,5,8,7,9]
+num_2 = [2,1,4,6,3,5,8,7,9] #list3
 Sort_num2 = sorted(num_2) #This Sort method will not sort the original list
 print(num_2,"Sorted List---->",Sort_num2)
 
@@ -68,7 +68,7 @@ print(d)
 
 e= Sort_num2[::-1] #Reverse a list (Easy method)
 
-bikes = ["honda","pulsar","Cbr"]
+bikes = ["honda","pulsar","Cbr"] #list4
 #? Don't Create a copy like this using bellow method
 bikes_copy= bikes #! Here bike and bikes will use same memory location If you change anyone it will affect both. Then It will not create new copy of bikes in bikes_copy!!!
 bikes_copy.append("tvs") 
@@ -87,14 +87,14 @@ bikes_copy3.append("hero")
 print(bikes_copy3)
 print(bikes)
 
-num_list = [1,2,3,4,5,6,7,8,9,10]
+num_list = [1,2,3,4,5,6,7,8,9,10] #list5
 ans = [number*number for number in num_list]
 print(num_list)
 print(ans) 
 
 #! list comprehension (Its an advance topic in list)
 
-num_list = [1,2,3,4,5,6,7,8,9,10]
+num_list = [1,2,3,4,5,6,7,8,9,10] #list6
 ans = [number*number for number in num_list] #Todo: using this method we going to create a  new list with the Square of a number in existing list!!!
 print(num_list) # here both list will have separate memory location!!!.
 print(ans) 
