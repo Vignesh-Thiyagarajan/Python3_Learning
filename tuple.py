@@ -65,7 +65,7 @@ name,age,canada = value_mathing_tuple #here matching values inside the tuple wit
 """
 print(name,age,canada)
 
-numericals = (1,2,3,4,5,6,7,8,9)
+numericals = (1,2,3,4,5,6,7,8,9) #tuple8
 """
 [Important Note:-]
     !: i1 represents the first value in tuple.
@@ -81,10 +81,10 @@ print(i1,i3,i2)
 import sys
 from time import time
 init = time() #For Checking execution time
-value_of_list = [0, 1, 2, "hello", True]
+value_of_list = [0, 1, 2, "hello", True] #list1
 print(sys.getsizeof(value_of_list),"bytes",time()-init,"Time")
 init = time() #for checking execution time 
-value_of_tuple = (0, 1, 2, "hello", True)
+value_of_tuple = (0, 1, 2, "hello", True) #tuple9
 print(sys.getsizeof(value_of_tuple),"bytes",time()-init,"Time") 
 
 #! comparing the execution time of the list and tuple with same values
@@ -96,5 +96,5 @@ import timeit
     ! here we using timeit module to print 
 """
 
-print(timeit.timeit(stmt="[0,1,2,3,4,5]", number=1000000))
-print(timeit.timeit(stmt="(0,1,2,3,4,5)", number=1000000))
+print(timeit.timeit(stmt="[0,1,2,3,4,5]", number=1000000)) #list2
+print(timeit.timeit(stmt="(0,1,2,3,4,5)", number=1000000)) #tuple10
