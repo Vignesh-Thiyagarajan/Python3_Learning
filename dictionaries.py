@@ -50,13 +50,13 @@ my_car3_cpy.pop("windows") #? here windows key and its value are deleted.
 print(my_car3_cpy)
 print(my_car1)
 
-clg = {"name": "JAYA", "palce": "Thiruninravur", "Course": "BCA"}
-clg_2 = dict(name="Jaya College", place="Thiruninravur", email="jaya@gmail.com")
+clg = {"name": "JAYA", "palce": "Thiruninravur", "Course": "BCA"} #dict3
+clg_2 = dict(name="Jaya College", place="Thiruninravur", email="jaya@gmail.com") #dict4
 
 clg.update(clg_2)
 print(clg)
 name1= (input("Enter the name1: " ))
 name2= (input("Enter the name2: " ))
-rol_number = {0:name1,1:name2} #geting value from user for dictionary
-#rol_number = [0:name1,1:name2] #!list will not work as dictionoray because it will not support hashing.
+rol_number = {0:name1,1:name2} #dict5 #!geting value from user for dictionary 
+#rol_number = [0:name1,1:name2] #list1 #!list will not work as dictionoray because it will not support hashing.
 print(rol_number)
